@@ -27,5 +27,6 @@ This brings us to this sample project! Leveraging Apache-Camel & SQS it was very
   * Java System Properties - aws.accessKeyId and aws.secretKey
   * Credential profiles file at the default location (~/.aws/credentials) shared by all AWS SDKs and the AWS CLI
   * Instance profile credentials delivered through the Amazon EC2 metadata service
-2. Launch sbt
-3. Run command `run`
+2. Create SQS queue named `sqs-akka-camel` or change the name in the Consumer/Producer scala file
+3. Launch sbt
+4. Run command `run`
